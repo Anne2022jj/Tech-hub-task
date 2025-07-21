@@ -1,0 +1,145 @@
+html {
+  scroll-behavior: smooth;
+  background-color: #ffffff;
+}
+section {
+  margin-top: 60px;
+}
+body {
+  color: #1a1a1a;
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+header {
+  position: sticky;
+  top: 0;
+  height: 50px;
+  background-color: #e1f7d5;
+  display: flex;
+  padding: 20px 40px;
+  align-items: center;
+  
+}
+
+.logo-11 {
+  width: 120px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+nav a {
+  background-color: #ffef9f;
+  color: #1a1a1a;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 8px 12px;
+  margin: 0;
+  font-weight: bold;
+}
+
+#home {
+  background-color: #f5ffe8;
+  color: #2d6a4f;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  margin: 0 auto;
+  padding: 80px 20px;
+}
+.article-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #ffef9f;
+  color: #2d6a4f;
+  text-decoration: none;
+}
+.infos {
+  background-color: #fffacc;
+  display: flex;
+  padding: 50px 20px;
+  justify-content: center;
+  gap: 20px;
+}
+.info {
+  background-color: #f5ffe8;
+  color: #2d6a4f;
+  padding: 20px 40px;
+  margin: 20px;
+  width: 30%;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+.emoji {
+  font-size: 1.5em;
+  margin-right: 8px;
+  text-align: center;
+}
+#about {
+  background-color: #f5ffe8;
+  color: #1a1a1a;
+  padding: 80px 20px;
+  margin: 20px;
+  text-align: left;
+  max-width: 600px;
+}
+#contact {
+  background-color: #f5ffe8;
+  color: #1a1a1a;
+  padding: 80px 20px;
+  margin: 20px;
+  text-align: left;
+}
+#services {
+  background-color: #f5ffe8;
+  color: #1a1a1a;
+  padding: 80px 20px;
+  text-align: left;
+  margin: 20px;
+}
+#what-i-learned {
+  background-color: #f5ffe8;
+  color: #1a1a1a;
+  padding: 80px 20px;
+  margin: 20px;
+  text-align: left;
+  list-style-type: square;
+  max-width: 600px;
+  font-family: "Courier New", Courier, monospace;
+}
+#what-i-learned ul {
+  list-style: circle;
+  color: #1a1a1a;
+  gap: 20px;
+  text-align: left;
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+#what-i-learned li {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #e1f7d5;
+  text-align: center;
+  padding: 20px;
+  color: #1a1a1a;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+  margin-bottom: 10px;
+}
+footer a {
+  background-color: #ffef9f;
+  color: #1a1a1a;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 5px 5px;
+}
