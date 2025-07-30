@@ -1,0 +1,33 @@
+body{
+  justify-content: center;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(13, 67, 105);
+}
+.page-layout{
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    width: 1535px;
+    
+    
+    
+}
+.nav-1{
+    padding: 40px 80px;
+    
+}
+.post-box{
+    background-color: rgb(13, 67, 105);
+    height: 50vh;
+
+
+}
+.key-nav{
+    color:black;
+    
+}
+.box-1{
+    color: black;
+}
